@@ -8,7 +8,9 @@ class Program
     /// </summary>
     static void Main()
     {
+        Console.WriteLine("Magiczne Liczenie");
         Program.AddDigitalNumber(Program.Power());
+        
     }
     
     /// <summary>
@@ -34,4 +36,5 @@ class Program
         
         Console.WriteLine("Suma cyfr tej potegi wynosi: {0}", addPower);
      }
+
 }
